@@ -1,6 +1,7 @@
 
 import './App.css';
 import Card from './components/Card';
+import FormattedText from './components/FormattedText';
 import List from './components/List';
 //import { useState } from 'react';
 
@@ -21,6 +22,8 @@ function App() {
         
           <List items={list1}/>
           <List items={list2}/>
+          <FormattedText label={'nome'} value={'Jefferson'}/>
+          <FormattedText label={'nome'} value={'Gislaine'}/>
       </header>
     </div>
   );
